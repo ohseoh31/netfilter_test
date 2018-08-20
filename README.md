@@ -8,6 +8,8 @@
 ```
 iptables -A OUTPUT -p tcp --dport 80 -j NFQUEUE 
 
+```
+
 
 2. ip 해더 tcp 해더를 확인한다
 
