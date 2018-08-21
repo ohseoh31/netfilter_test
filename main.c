@@ -15,7 +15,7 @@
 
 #define IPPROTO_TCP 6
 
-
+//TODO regular express
 //iptables queue iptables -A OUTPUT -p tcp --dport 80 -j NFQUEUE
 int comp_sexdot(char *data, int *id){
   int i=0;
